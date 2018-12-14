@@ -1,0 +1,14 @@
+module=+:1000=+:CommetChat=+:modules/mx_commetchat/=+:MXP CommetChat=+:1
+New_function=+:---------------------------=+:0=+:0=+:0=+:0=+:0
+function=+:1000=+:1006=+:CommetChat Front=+:CommetChat Front=+:commetchat_front.php=+:
+parameter=+:997=+:1006=+:App_ID=+:Text=+:App ID=+:=+:0=+:0
+parameter=+:998=+:1006=+:chat_height=+:Number=+:600=+:=+:0=+:0
+parameter=+:989=+:1006=+:chat_width=+:Number=+:990=+:=+:0=+:0
+parameter=+:0=+:0=+:0=+:endoflist=+:0=+:0
+block=+:=+:CommetChat Front=+:Demo block=+:1006=+:0=+:5=+:0=+:0=+:0=+:0=+:1=+:1
+New_function=+:---------------------------=+:0=+:0=+:0=+:0=+:0
+function=+:1000=+:1007=+:CommetChat Drop=+:CommetChat Drop=+:commetchat_drop.php=+:
+parameter=+:997=+:1007=+:App_ID=+:Text=+:App ID=+:=+:0=+:0
+parameter=+:0=+:0=+:0=+:endoflist=+:0=+:0
+block=+:=+:CommetChat Drop=+:Demo block=+:1007=+:0=+:5=+:0=+:0=+:0=+:0=+:1=+:1
+function=+:0=+:0=+:0=+:endoflist=+:0=+:0

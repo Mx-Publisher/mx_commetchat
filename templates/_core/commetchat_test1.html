@@ -1,22 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>CometChat Test</title>
-</head>
-<body>
+<div class="clear"></div>
+<div class="forabg block" style="vertical-align:top; width:{BLOCK_SIZE};">
+<div class="inner">
+	<dl>
+		<dt class="row1" style="text-align:left;">
 
+		<script type="text/javascript">
 
-<script type="text/javascript">
+		var chat_appid = '{APP_ID}';
+		var chat_id = '{S_USER_ID}';
+		var chat_name = '{S_USERNICK}';
 
-  var chat_appid = 'XXXXX';
-  var chat_id = 'SUPERHERO1';
+		(function() {
+		    var css = document.createElement('link'); css.rel = 'stylesheet'; css.type = 'text/css'; css.href = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.css';
+		    document.getElementsByTagName("head")[0].appendChild(css);
+		    var js = document.createElement('script'); js.type = 'text/javascript'; js.src = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
+		})();
+		</script>
 
-  (function() {
-    var css = document.createElement('link'); css.rel = 'stylesheet'; css.type = 'text/css'; css.href = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.css';
-    document.getElementsByTagName("head")[0].appendChild(css);
-    var js = document.createElement('script'); js.type = 'text/javascript'; js.src = 'https://fast.cometondemand.net/'+chat_appid+'x_xchat.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);
-  })();
-</script>
+		</dt>
+	</dl>
 
-</body>
-</html>
+	<dl>
+		<dt class="row1" style="text-align:left;">
+			<div class="inner bg2 panel">
+			</div>
+		</dt>
+	</dl>
+	</div>
+</div>
